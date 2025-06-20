@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/soniox_test_2.props" />
+</Project>

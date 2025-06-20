@@ -1,0 +1,88 @@
+@{
+    ViewData["Title"] = "Slovenian Speech Transcription";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="text-center">Slovenian Speech Transcription</h2>
+                </div>
+                <div class="card-body">
+                    <div class="text-center mb-4">
+                        <button id="recordButton" class="btn btn-primary btn-lg">
+                            <i class="fas fa-microphone"></i> Start Recording
+                        </button>
+                    </div>
+                    <div id="recordingStatus" class="alert alert-info d-none">
+                        Recording in progress...
+                    </div>
+                    <div class="form-group">
+                        <label for="transcriptionText">Transcription:</label>
+                        <textarea id="transcriptionText" class="form-control" rows="5" readonly></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        let isRecording = false;
+        const recordButton = document.getElementById('recordButton');
+        const recordingStatus = document.getElementById('recordingStatus');
+        const transcriptionText = document.getElementById('transcriptionText');
+
+        recordButton.addEventListener('click', async () => {
+            if (!isRecording) {
+                // Start recording
+                try {
+                    const response = await fetch('/Transcription/StartRecording', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        }
+                    });
+                    const result = await response.json();
+                    
+                    if (result.success) {
+                        isRecording = true;
+                        recordButton.innerHTML = '<i class="fas fa-stop"></i> Stop Recording';
+                        recordButton.classList.remove('btn-primary');
+                        recordButton.classList.add('btn-danger');
+                        recordingStatus.classList.remove('d-none');
+                    } else {
+                        alert('Failed to start recording: ' + result.message);
+                    }
+                } catch (error) {
+                    alert('Error starting recording: ' + error.message);
+                }
+            } else {
+                // Stop recording
+                try {
+                    const response = await fetch('/Transcription/StopRecording', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        }
+                    });
+                    const result = await response.json();
+                    
+                    if (result.success) {
+                        isRecording = false;
+                        recordButton.innerHTML = '<i class="fas fa-microphone"></i> Start Recording';
+                        recordButton.classList.remove('btn-danger');
+                        recordButton.classList.add('btn-primary');
+                        recordingStatus.classList.add('d-none');
+                    } else {
+                        alert('Failed to stop recording: ' + result.message);
+                    }
+                } catch (error) {
+                    alert('Error stopping recording: ' + error.message);
+                }
+            }
+        });
+    </script>
+} 

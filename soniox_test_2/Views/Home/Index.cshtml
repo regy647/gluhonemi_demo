@@ -1,0 +1,291 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="text-center" style="position:relative;width:100%;margin:0 auto;">
+    <div class="titilePicture" style="margin-bottom:0;position:relative;aspect-ratio:16/9;overflow:hidden;">
+        <img src="@Url.Content("~/img/WhatsApp Image 2025-06-18 at 13.23.00.jpeg")" alt="Title Picture" style="display:block;width:100%;height:100%;object-fit:cover;" />
+    </div>
+    <div class="subtitle-container" style="position:absolute;bottom:2em;left:0;right:0;display:flex;justify-content:center;">
+        <div id="tvSubtitleBar" style="width:90%;display:flex;flex-direction:column;align-items:flex-start;gap:0.2em;perspective:100px;max-height:6.5rem;overflow:hidden;">
+            <div id="tvSubtitleLine1" style="display:table;text-align:left;padding:0.1em 0.3em;min-height:1.5em;line-height:1.25;font-size:2rem;color:white;transition:opacity 0.3s ease, transform 0.4s ease;"></div>
+            <div id="tvSubtitleLine2" style="display:table;text-align:left;padding:0.1em 0.3em;min-height:1.5em;line-height:1.25;font-size:2rem;color:white;transition:opacity 0.3s ease, transform 0.4s ease;"></div>
+            <span id="subtitleMeasure" style="visibility:hidden;position:absolute;left:-9999px;font-size:2rem;"></span>
+        </div>
+    </div>
+</div>
+<div class="text-center mt-4" style="display:flex;justify-content:center;align-items:center;gap:1em;">
+    <div style="display:flex;align-items:center;gap:1em;">
+        <span id="recordDot" style="display:none;width:1.2em;height:1.2em;border-radius:50%;background:red;vertical-align:middle;box-shadow:0 0 8px 2px rgba(255,0,0,0.5);"></span>
+        <button id="recordButton" class="btn btn-primary btn-lg">
+            <span id="recordIcon" class="fas fa-microphone"></span>
+            <span id="recordText">Start Recording</span>
+        </button>
+        <!-- Hamburger button for dropdown -->
+        <button id="transcriptionDropdownBtn" class="btn btn-secondary btn-lg">
+            <span class="fas fa-bars"></span>
+        </button>
+    </div>
+</div>
+<audio id="audioPlayback" controls class="mt-3 d-none"></audio>
+<div id="transcriptionDropdown" class="mt-3" style="display:block;max-height:0;overflow:hidden;opacity:0;transition:max-height 0.4s cubic-bezier(0.4,0,0.2,1), opacity 0.3s;">
+    <label for="transcriptionText">Live Transcription:</label>
+    <textarea id="transcriptionText" class="form-control" rows="6" readonly></textarea>
+</div>
+
+@section Scripts {
+    <script>
+        let isRecording = false;
+        let mediaRecorder;
+        let ws;
+        let finalText = '';
+        const recordButton = document.getElementById('recordButton');
+        const recordIcon = document.getElementById('recordIcon');
+        const recordText = document.getElementById('recordText');
+        const recordDot = document.getElementById('recordDot');
+        const audioPlayback = document.getElementById('audioPlayback');
+        const transcriptionText = document.getElementById('transcriptionText');
+        const tvSubtitleLine1 = document.getElementById('tvSubtitleLine1');
+        const tvSubtitleLine2 = document.getElementById('tvSubtitleLine2');
+        const subtitleMeasure = document.getElementById('subtitleMeasure');
+        const tvSubtitleBar = document.getElementById('tvSubtitleBar');
+        const transcriptionDropdownBtn = document.getElementById('transcriptionDropdownBtn');
+        const transcriptionDropdown = document.getElementById('transcriptionDropdown');
+
+        // --- BEGIN NEW SUBTITLE LOGIC (SYNC WITH WHITE BOX) ---
+        let subtitleFullText = '';
+        const MAX_SUBTITLE_LINES = 2;
+        const SUBTITLE_LINGER_MS = 2000; // 2 seconds
+        let previousLines = ['', ''];
+        let isAnimating = false;
+
+        function updateLineAppearance(line1Text, line2Text) {
+             if (line1Text && line1Text.trim()) {
+                tvSubtitleLine1.style.background = 'rgba(0,0,0,0.9)';
+                tvSubtitleLine1.style.visibility = 'visible';
+            } else {
+                tvSubtitleLine1.style.background = 'transparent';
+                tvSubtitleLine1.style.visibility = 'hidden';
+            }
+
+            if (line2Text && line2Text.trim()) {
+                tvSubtitleLine2.style.background = 'rgba(0,0,0,0.9)';
+                tvSubtitleLine2.style.visibility = 'visible';
+            } else {
+                tvSubtitleLine2.style.background = 'transparent';
+                tvSubtitleLine2.style.visibility = 'hidden';
+            }
+        }
+
+        function updateSubtitleBar() {
+            if (isAnimating) return;
+
+            let maxWidth = tvSubtitleBar.clientWidth - 32;
+            let allLines = wrapTextToLines(subtitleFullText, maxWidth);
+
+            const newLine1 = allLines.length > 1 ? allLines[allLines.length - 2] : '';
+            const newLine2 = allLines.length > 0 ? allLines[allLines.length - 1] : '';
+
+            // Check for roll-up animation
+            if (newLine1 === previousLines[1] && newLine1 !== '') {
+                isAnimating = true;
+                tvSubtitleLine1.style.opacity = '0';
+                tvSubtitleLine2.style.transform = `translateY(-100%)`;
+
+                setTimeout(() => {
+                    // Update text content
+                    tvSubtitleLine1.textContent = newLine1;
+                    tvSubtitleLine2.textContent = newLine2;
+
+                    // Reset styles without animation for the swap
+                    tvSubtitleLine1.style.transition = 'none';
+                    tvSubtitleLine2.style.transition = 'none';
+                    
+                    tvSubtitleLine1.style.opacity = '1';
+                    tvSubtitleLine2.style.transform = 'translateY(0)';
+                    tvSubtitleLine2.style.opacity = '0'; // Prepare for fade-in
+
+                    // Force reflow
+                    void tvSubtitleBar.offsetHeight;
+
+                    // Re-enable transitions and fade in the new line
+                    tvSubtitleLine1.style.transition = 'opacity 0.3s ease, transform 0.4s ease';
+                    tvSubtitleLine2.style.transition = 'opacity 0.3s ease, transform 0.4s ease';
+                    tvSubtitleLine2.style.opacity = '1';
+
+                    updateLineAppearance(newLine1, newLine2);
+                    isAnimating = false;
+                }, 400); // Animation duration
+            } else {
+                // Handle simple text updates
+                tvSubtitleLine1.textContent = newLine1;
+                tvSubtitleLine2.textContent = newLine2;
+                updateLineAppearance(newLine1, newLine2);
+            }
+            previousLines = [newLine1, newLine2];
+        }
+        
+        function wrapTextToLines(text, maxWidthPx) {
+            const words = text.split(' ');
+            if (words.length === 0) return [];
+            
+            const lines = [];
+            let currentLine = words[0];
+
+            for (let i = 1; i < words.length; i++) {
+                let testLine = currentLine + ' ' + words[i];
+                subtitleMeasure.textContent = testLine;
+                if (subtitleMeasure.offsetWidth < maxWidthPx) {
+                    currentLine = testLine;
+                } else {
+                    lines.push(currentLine);
+                    currentLine = words[i];
+                }
+            }
+            lines.push(currentLine);
+            return lines;
+        }
+
+        function appendTranscription(text) {
+            transcriptionText.value = text;
+            subtitleFullText = text;
+            updateSubtitleBar();
+        }
+
+        // Dropdown toggle for transcription box with animation
+        transcriptionDropdownBtn.addEventListener('click', () => {
+            if (transcriptionDropdown.style.maxHeight === '0px' || !transcriptionDropdown.style.maxHeight) {
+                transcriptionDropdown.style.display = 'block';
+                transcriptionDropdown.style.maxHeight = '500px'; // enough for textarea
+                transcriptionDropdown.style.opacity = '1';
+            } else {
+                transcriptionDropdown.style.maxHeight = '0px';
+                transcriptionDropdown.style.opacity = '0';
+                setTimeout(() => {
+                    if (transcriptionDropdown.style.maxHeight === '0px') {
+                        transcriptionDropdown.style.display = 'block'; // keep block for transition
+                    }
+                }, 400);
+            }
+        });
+
+        // Helper: split text into sentences (simple, based on punctuation)
+        function splitSentences(text) {
+            // Split on . ! ? followed by space or end of string
+            return text.match(/[^.!?\n]+[.!?]+(\s|$)/g) || [];
+        }
+
+        let nonFinalBuffer = '';
+        let blinkInterval = null;
+
+        recordButton.addEventListener('click', async () => {
+            if (!isRecording) {
+                // Start recording
+                if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+                    alert('Your browser does not support audio recording.');
+                    return;
+                }
+                try {
+                    ws = new WebSocket((location.protocol === 'https:' ? 'wss://' : 'ws://') + location.host + '/ws/transcribe');
+                    ws.binaryType = 'arraybuffer';
+                    ws.onopen = () => {
+                        console.log('[DEBUG] WebSocket connection opened');
+                    };
+                    ws.onclose = (event) => {
+                        console.log('[DEBUG] WebSocket connection closed', event);
+                        ws = null;
+                    };
+                    ws.onerror = (event) => {
+                        console.error('[ERROR] WebSocket error', event);
+                    };
+                    ws.onmessage = (event) => {
+                        console.log('[DEBUG] WebSocket message received', event.data);
+                        try {
+                            const data = JSON.parse(event.data);
+                            if (data && data.tokens) {
+                                let nonFinalText = '';
+                                for (const token of data.tokens) {
+                                    if (token.text) {
+                                        if (token.is_final) {
+                                            finalText += token.text;
+                                            nonFinalBuffer += token.text;
+                                        } else {
+                                            nonFinalText += token.text;
+                                        }
+                                    }
+                                }
+                                appendTranscription(finalText + nonFinalText);
+                            }
+                        } catch (e) {
+                            console.warn('[WARN] Failed to parse transcription message', e);
+                        }
+                    };
+
+                    const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+                    mediaRecorder = new MediaRecorder(stream, { mimeType: 'audio/webm' });
+                    mediaRecorder.ondataavailable = function (e) {
+                        if (e.data && e.data.size > 0 && ws && ws.readyState === WebSocket.OPEN) {
+                            e.data.arrayBuffer().then(buffer => {
+                                ws.send(buffer);
+                                console.log('[DEBUG] Sent audio chunk to backend', buffer.byteLength, 'bytes');
+                            });
+                        }
+                    };
+                    mediaRecorder.onstop = function () {
+                        stream.getTracks().forEach(track => track.stop());
+                        audioPlayback.classList.add('d-none');
+                        if (ws && ws.readyState === WebSocket.OPEN) ws.close();
+                        console.log('[DEBUG] Stopped recording and closed audio/WebSocket');
+                    };
+                    mediaRecorder.start(250); // send audio chunks every 250ms
+
+                    isRecording = true;
+                    recordIcon.className = 'fas fa-stop';
+                    recordText.textContent = 'Stop Recording';
+                    recordDot.style.display = 'inline-block';
+                    // Start blinking
+                    blinkInterval = setInterval(() => {
+                        recordDot.style.opacity = recordDot.style.opacity === '0' ? '1' : '0';
+                    }, 500);
+                    audioPlayback.classList.add('d-none');
+                    subtitleFullText = '';
+                    updateSubtitleBar();
+                    nonFinalBuffer = '';
+                    console.log('[DEBUG] Started recording');
+                } catch (err) {
+                    alert('Could not start audio recording: ' + err.message);
+                    console.error('[ERROR] Could not start audio recording', err);
+                }
+            } else {
+                // Stop recording
+                if (mediaRecorder && isRecording) {
+                    mediaRecorder.stop();
+                    isRecording = false;
+                    recordIcon.className = 'fas fa-microphone';
+                    recordText.textContent = 'Start Recording';
+                    recordDot.style.display = 'none';
+                    recordDot.style.opacity = '1';
+                    if (blinkInterval) clearInterval(blinkInterval);
+                    blinkInterval = null;
+                    subtitleFullText = '';
+                    updateSubtitleBar();
+                    nonFinalBuffer = '';
+                    console.log('[DEBUG] Stopped recording');
+                }
+            }
+        });
+
+        const clearTranscriptionBtn = document.getElementById('clearTranscriptionBtn');
+        clearTranscriptionBtn.addEventListener('click', () => {
+            finalText = '';
+            transcriptionText.value = '';
+            subtitleFullText = '';
+            // Reset lines
+            tvSubtitleLine1.textContent = '';
+            tvSubtitleLine2.textContent = '';
+            updateLineAppearance('', '');
+        });
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+}
