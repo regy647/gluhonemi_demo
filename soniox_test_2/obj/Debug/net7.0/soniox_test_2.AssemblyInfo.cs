@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("soniox_test_2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+18818d3e0b7dc4ff9df6e61482fdb20f19b81b8c")]
 [assembly: System.Reflection.AssemblyProductAttribute("soniox_test_2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("soniox_test_2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

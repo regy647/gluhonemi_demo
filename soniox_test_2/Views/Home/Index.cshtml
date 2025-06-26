@@ -15,6 +15,20 @@
         </div>
     </div>
 </div>
+
+<!-- Notification container -->
+<div id="notificationContainer" style="position:fixed;top:20px;right:20px;z-index:9999;display:none;">
+    <div id="notification" class="alert alert-info" style="min-width:300px;box-shadow:0 4px 12px rgba(0,0,0,0.15);border:none;border-radius:8px;">
+        <div style="display:flex;align-items:center;gap:10px;">
+            <i class="fas fa-info-circle" style="font-size:1.2em;"></i>
+            <div>
+                <strong id="notificationTitle">Recording Time Limit</strong>
+                <div id="notificationMessage">Recording is limited to 60 seconds per session.</div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="text-center mt-4" style="display:flex;justify-content:center;align-items:center;gap:1em;">
     <div style="display:flex;align-items:center;gap:1em;">
         <span id="recordDot" style="display:none;width:1.2em;height:1.2em;border-radius:50%;background:red;vertical-align:middle;box-shadow:0 0 8px 2px rgba(255,0,0,0.5);"></span>
@@ -28,6 +42,15 @@
         </button>
     </div>
 </div>
+
+<!-- Timer display -->
+<div id="timerContainer" class="text-center mt-2" style="display:none;">
+    <div class="badge bg-warning text-dark" style="font-size:1.1em;padding:0.5em 1em;">
+        <i class="fas fa-clock"></i>
+        <span id="timerDisplay">00:60</span>
+    </div>
+</div>
+
 <audio id="audioPlayback" controls class="mt-3 d-none"></audio>
 <div id="transcriptionDropdown" class="mt-3" style="display:block;max-height:0;overflow:hidden;opacity:0;transition:max-height 0.4s cubic-bezier(0.4,0,0.2,1), opacity 0.3s;">
     <label for="transcriptionText">Live Transcription:</label>
@@ -40,6 +63,10 @@
         let mediaRecorder;
         let ws;
         let finalText = '';
+        let recordingTimer = null;
+        let timeRemaining = 60; // 60 seconds
+        const RECORDING_LIMIT = 60; // seconds
+        
         const recordButton = document.getElementById('recordButton');
         const recordIcon = document.getElementById('recordIcon');
         const recordText = document.getElementById('recordText');
@@ -52,6 +79,68 @@
         const tvSubtitleBar = document.getElementById('tvSubtitleBar');
         const transcriptionDropdownBtn = document.getElementById('transcriptionDropdownBtn');
         const transcriptionDropdown = document.getElementById('transcriptionDropdown');
+        const timerContainer = document.getElementById('timerContainer');
+        const timerDisplay = document.getElementById('timerDisplay');
+        const notificationContainer = document.getElementById('notificationContainer');
+        const notificationTitle = document.getElementById('notificationTitle');
+        const notificationMessage = document.getElementById('notificationMessage');
+
+        // Notification function
+        function showNotification(title, message, type = 'info') {
+            notificationTitle.textContent = title;
+            notificationMessage.textContent = message;
+            
+            const notification = document.getElementById('notification');
+            notification.className = `alert alert-${type}`;
+            
+            notificationContainer.style.display = 'block';
+            
+            // Auto-hide after 5 seconds
+            setTimeout(() => {
+                notificationContainer.style.display = 'none';
+            }, 5000);
+        }
+
+        // Timer function
+        function updateTimer() {
+            const minutes = Math.floor(timeRemaining / 60);
+            const seconds = timeRemaining % 60;
+            timerDisplay.textContent = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+            
+            // Change color when time is running low
+            if (timeRemaining <= 10) {
+                timerDisplay.style.color = '#dc3545';
+            } else if (timeRemaining <= 20) {
+                timerDisplay.style.color = '#ffc107';
+            } else {
+                timerDisplay.style.color = 'inherit';
+            }
+        }
+
+        function startTimer() {
+            timeRemaining = RECORDING_LIMIT;
+            updateTimer();
+            timerContainer.style.display = 'block';
+            
+            recordingTimer = setInterval(() => {
+                timeRemaining--;
+                updateTimer();
+                
+                if (timeRemaining <= 0) {
+                    stopRecording();
+                    showNotification('Recording Stopped', 'Recording automatically stopped after 60 seconds. Click "Start Recording" to begin a new session.', 'warning');
+                }
+            }, 1000);
+        }
+
+        function stopTimer() {
+            if (recordingTimer) {
+                clearInterval(recordingTimer);
+                recordingTimer = null;
+            }
+            timerContainer.style.display = 'none';
+            timeRemaining = RECORDING_LIMIT;
+        }
 
         // --- BEGIN NEW SUBTITLE LOGIC (SYNC WITH WHITE BOX) ---
         let subtitleFullText = '';
@@ -179,6 +268,24 @@
         let nonFinalBuffer = '';
         let blinkInterval = null;
 
+        function stopRecording() {
+            if (mediaRecorder && isRecording) {
+                mediaRecorder.stop();
+                isRecording = false;
+                recordIcon.className = 'fas fa-microphone';
+                recordText.textContent = 'Start Recording';
+                recordDot.style.display = 'none';
+                recordDot.style.opacity = '1';
+                if (blinkInterval) clearInterval(blinkInterval);
+                blinkInterval = null;
+                stopTimer();
+                subtitleFullText = '';
+                updateSubtitleBar();
+                nonFinalBuffer = '';
+                console.log('[DEBUG] Stopped recording');
+            }
+        }
+
         recordButton.addEventListener('click', async () => {
             if (!isRecording) {
                 // Start recording
@@ -252,27 +359,22 @@
                     subtitleFullText = '';
                     updateSubtitleBar();
                     nonFinalBuffer = '';
+                    
+                    // Start the timer
+                    startTimer();
+                    
+                    // Show notification about time limit
+                    showNotification('Recording Started', 'Recording is limited to 60 seconds per session.', 'info');
+                    
                     console.log('[DEBUG] Started recording');
                 } catch (err) {
                     alert('Could not start audio recording: ' + err.message);
                     console.error('[ERROR] Could not start audio recording', err);
                 }
             } else {
-                // Stop recording
-                if (mediaRecorder && isRecording) {
-                    mediaRecorder.stop();
-                    isRecording = false;
-                    recordIcon.className = 'fas fa-microphone';
-                    recordText.textContent = 'Start Recording';
-                    recordDot.style.display = 'none';
-                    recordDot.style.opacity = '1';
-                    if (blinkInterval) clearInterval(blinkInterval);
-                    blinkInterval = null;
-                    subtitleFullText = '';
-                    updateSubtitleBar();
-                    nonFinalBuffer = '';
-                    console.log('[DEBUG] Stopped recording');
-                }
+                // Stop recording manually
+                stopRecording();
+                showNotification('Recording Stopped', 'Recording stopped manually.', 'success');
             }
         });
 

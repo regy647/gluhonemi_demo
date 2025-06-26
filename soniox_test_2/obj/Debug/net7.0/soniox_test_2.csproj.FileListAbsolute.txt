@@ -39,3 +39,4 @@
 /Users/matic/RiderProjects/soniox_test_2/soniox_test_2/obj/Debug/net7.0/soniox_test_2.pdb
 /Users/matic/RiderProjects/soniox_test_2/soniox_test_2/obj/Debug/net7.0/soniox_test_2.genruntimeconfig.cache
 /Users/matic/RiderProjects/soniox_test_2/soniox_test_2/obj/Debug/net7.0/ref/soniox_test_2.dll
+/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/obj/Debug/net7.0/soniox_test_2.sourcelink.json
