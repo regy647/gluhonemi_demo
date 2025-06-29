@@ -17,7 +17,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "637"
+          "Value": "1339"
         },
         {
           "Name": "Content-Type",
@@ -25,22 +25,22 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"zeR5PHeeHbxfGkL8WV86OzdoF6UnjuCmnagaocD+cbo=\""
+          "Value": "\"QrgjVu4vhM7FhX2HZcrZgjChb2H4BqtDPANd9xi/Smw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Jun 2025 08:15:01 GMT"
+          "Value": "Sat, 28 Jun 2025 09:37:50 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-zeR5PHeeHbxfGkL8WV86OzdoF6UnjuCmnagaocD+cbo="
+          "Value": "sha256-QrgjVu4vhM7FhX2HZcrZgjChb2H4BqtDPANd9xi/Smw="
         }
       ]
     },
     {
-      "Route": "css/site.lugek5hnai.css",
+      "Route": "css/site.m2yhpys1pu.css",
       "AssetFile": "css/site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -54,7 +54,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "637"
+          "Value": "1339"
         },
         {
           "Name": "Content-Type",
@@ -62,21 +62,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"zeR5PHeeHbxfGkL8WV86OzdoF6UnjuCmnagaocD+cbo=\""
+          "Value": "\"QrgjVu4vhM7FhX2HZcrZgjChb2H4BqtDPANd9xi/Smw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Jun 2025 08:15:01 GMT"
+          "Value": "Sat, 28 Jun 2025 09:37:50 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "lugek5hnai"
+          "Value": "m2yhpys1pu"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-zeR5PHeeHbxfGkL8WV86OzdoF6UnjuCmnagaocD+cbo="
+          "Value": "sha256-QrgjVu4vhM7FhX2HZcrZgjChb2H4BqtDPANd9xi/Smw="
         },
         {
           "Name": "label",
@@ -245,6 +245,88 @@
         {
           "Name": "label",
           "Value": "img/WhatsApp Image 2025-06-18 at 13.23.00.jpeg"
+        }
+      ]
+    },
+    {
+      "Route": "img/WhatsApp Image 2025-06-27 at 14.18.51.22rez0dfvh.jpeg",
+      "AssetFile": "img/WhatsApp Image 2025-06-27 at 14.18.51.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "351379"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ehMo7+9fnFdzU3+9seu69EA/WYhVvKg9ajACRmTj0BE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 12:20:46 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "22rez0dfvh"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ehMo7+9fnFdzU3+9seu69EA/WYhVvKg9ajACRmTj0BE="
+        },
+        {
+          "Name": "label",
+          "Value": "img/WhatsApp Image 2025-06-27 at 14.18.51.jpeg"
+        }
+      ]
+    },
+    {
+      "Route": "img/WhatsApp Image 2025-06-27 at 14.18.51.jpeg",
+      "AssetFile": "img/WhatsApp Image 2025-06-27 at 14.18.51.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "351379"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ehMo7+9fnFdzU3+9seu69EA/WYhVvKg9ajACRmTj0BE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 12:20:46 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ehMo7+9fnFdzU3+9seu69EA/WYhVvKg9ajACRmTj0BE="
         }
       ]
     },

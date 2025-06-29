@@ -29,3 +29,41 @@ body {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
+
+@media (max-width: 600px) {
+  .subtitle-container {
+    min-height: 40vh;
+    max-height: 50vh;
+    bottom: 7em;
+    padding-bottom: 1em;
+  }
+  #tvSubtitleBar {
+    min-height: 40vh;
+    max-height: 50vh;
+    width: 98vw;
+    margin: 0 auto;
+  }
+  .text-center.mt-4 {
+    position: fixed !important;
+    left: 0;
+    right: 0;
+    bottom: 2em;
+    z-index: 100;
+    background: none;
+    flex-direction: row !important;
+    justify-content: center;
+    gap: 1em;
+  }
+  .recording-indicator {
+    margin-bottom: 0.5em;
+  }
+  #settingsButton {
+    top: 12px !important;
+    right: 12px !important;
+  }
+  #speakerTranscriptContainer {
+    max-height: 18vh;
+    font-size: 1em;
+    margin-top: 1em;
+  }
+}

@@ -2,59 +2,360 @@
     ViewData["Title"] = "Home Page";
 }
 
+<style>
+  body {
+    background: #000000 !important;
+    color: #fff;
+    transition: background 0.3s, color 0.3s;
+  }
+  body.light-mode {
+    background: #fff !important;
+    color: #111;
+  }
+  body.light-mode .recording-indicator {
+    background: #ffbdbd;
+    color: #b71c1c;
+  }
+  body.light-mode .recording-text {
+    color: #b71c1c;
+  }
+  body.light-mode .record-circular-btn,
+  body.light-mode .hamburger-circular-btn,
+  body.light-mode .settings-circular-btn {
+    background: #e3e3e3;
+    color: #1976d2;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  }
+  body.light-mode .record-circular-btn .fa-microphone,
+  body.light-mode .record-circular-btn .fa-stop,
+  body.light-mode .hamburger-circular-btn .fa-history,
+  body.light-mode .settings-circular-btn .fa-cog {
+    color: #1976d2;
+  }
+  body.light-mode .settings-panel {
+    background: #f7f7f7;
+    color: #222;
+  }
+  body.light-mode .close-settings-btn {
+    color: #222;
+  }
+  body.light-mode .close-settings-btn:hover {
+    color: #d32f2f;
+  }
+  body.light-mode #tvSubtitleLine1,
+  body.light-mode #tvSubtitleLine2 {
+    background: #fff !important;
+    color: #111 !important;
+    border: 1px solid #e0e0e0;
+  }
+  .record-circular-btn {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    background: #1976d2;
+    color: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    border: none;
+    transition: background 0.2s;
+  }
+  .record-circular-btn:active, .record-circular-btn:focus {
+    background: #115293;
+    outline: none;
+  }
+  .hamburger-circular-btn {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    background: #1976d2;
+    color: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    border: none;
+    transition: background 0.2s;
+  }
+  .hamburger-circular-btn:active, .hamburger-circular-btn:focus {
+    background: #115293;
+    outline: none;
+  }
+  .hamburger-circular-btn .fa-bars {
+    color: #fff;
+  }
+  .recording-indicator {
+    width: auto;
+    min-width: 82px;
+    height: 28px;
+    background: #d32f2f;
+    color: #fff;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.05rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    padding: 0 0.7em;
+    transition: opacity 0.2s;
+    margin-bottom: 0.5em;
+    line-height: 1;
+  }
+  .recording-indicator .fa-broadcast-tower {
+    font-size: 1em;
+    color: #fff;
+  }
+  .recording-text {
+    font-size: 1em;
+    margin-left: 0;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    white-space: nowrap;
+    line-height: 1;
+  }
+  .settings-circular-btn {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    background: transparent;
+    color: #fff;
+    box-shadow: none;
+    border: none;
+    transition: background 0.2s;
+    cursor: pointer;
+  }
+  .settings-circular-btn:active, .settings-circular-btn:focus {
+    background: rgba(255,255,255,0.08);
+    outline: none;
+  }
+  .settings-circular-btn .fa-cog {
+    color: #fff;
+  }
+  .settings-panel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 340px;
+    max-width: 90vw;
+    background: #181818;
+    color: #fff;
+    box-shadow: -2px 0 16px rgba(0,0,0,0.25);
+    z-index: 2000;
+    transform: translateX(100%);
+    transition: transform 0.35s cubic-bezier(0.4,0,0.2,1);
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    overflow-y: auto;
+  }
+  .settings-panel.open {
+    transform: translateX(0);
+  }
+  .settings-panel-content {
+    padding: 2em 1.5em 1.5em 1.5em;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+  }
+  .close-settings-btn {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 10;
+    transition: color 0.2s;
+  }
+  .close-settings-btn:hover {
+    color: #d32f2f;
+  }
+  /* Toggle Switch Styles */
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 44px;
+    height: 24px;
+  }
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 24px;
+  }
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+  }
+  .switch input:checked + .slider {
+    background-color: #1976d2;
+  }
+  .switch input:checked + .slider:before {
+    transform: translateX(20px);
+  }
+  /* Transcription text size classes */
+  .transcription-size-small #transcriptionText,
+  .transcription-size-small #tvSubtitleLine1,
+  .transcription-size-small #tvSubtitleLine2,
+  .transcription-size-small #tvSubtitleLine3,
+  .transcription-size-small #tvSubtitleLine4,
+  .transcription-size-small #tvSubtitleLine5 {
+    font-size: 1.2rem !important;
+  }
+  .transcription-size-medium #transcriptionText,
+  .transcription-size-medium #tvSubtitleLine1,
+  .transcription-size-medium #tvSubtitleLine2,
+  .transcription-size-medium #tvSubtitleLine3,
+  .transcription-size-medium #tvSubtitleLine4,
+  .transcription-size-medium #tvSubtitleLine5 {
+    font-size: 2rem !important;
+  }
+  .transcription-size-large #transcriptionText,
+  .transcription-size-large #tvSubtitleLine1,
+  .transcription-size-large #tvSubtitleLine2,
+  .transcription-size-large #tvSubtitleLine3,
+  .transcription-size-large #tvSubtitleLine4,
+  .transcription-size-large #tvSubtitleLine5 {
+    font-size: 2.8rem !important;
+  }
+  .subtitle-container {
+    position: absolute;
+    bottom: 2em;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    min-height: calc(2.8rem * 5 + 1.5em); /* 5 lines of largest text + padding */
+    max-height: calc(2.8rem * 5 + 1.5em);
+    align-items: flex-end;
+    pointer-events: none;
+  }
+  #tvSubtitleBar {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.2em;
+    perspective: 100px;
+    min-height: calc(2.8rem * 5 + 1.5em);
+    max-height: calc(2.8rem * 5 + 1.5em);
+    overflow: hidden;
+    margin: 0 auto;
+    justify-content: flex-end;
+  }
+  #tvSubtitleLine1, #tvSubtitleLine2 {
+    display: block;
+    text-align: left;
+    padding: 0.1em 0.3em;
+    min-height: 1.5em;
+    line-height: 1.25;
+    color: white;
+    transition: opacity 0.3s ease, transform 0.4s ease;
+    word-break: break-word;
+    white-space: normal;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    overflow: visible;
+    font-size: inherit;
+  }
+  .transcription-size-small #tvSubtitleLine1,
+  .transcription-size-small #tvSubtitleLine2 {
+    font-size: 1.2rem !important;
+  }
+  .transcription-size-medium #tvSubtitleLine1,
+  .transcription-size-medium #tvSubtitleLine2 {
+    font-size: 2rem !important;
+  }
+  .transcription-size-large #tvSubtitleLine1,
+  .transcription-size-large #tvSubtitleLine2 {
+    font-size: 2.8rem !important;
+  }
+  #transcriptionText {
+    width: 100%;
+    min-height: 4em;
+    max-height: 30vh;
+    resize: vertical;
+    overflow-y: auto;
+    font-family: inherit;
+    word-break: break-word;
+    white-space: pre-wrap;
+    box-sizing: border-box;
+  }
+</style>
 
-<div class="text-center" style="position:relative;width:100%;margin:0 auto;">
+<div class="text-center" style="position:relative;width:100%;margin:20em auto 0 auto;">
     <div class="titilePicture" style="margin-bottom:0;position:relative;aspect-ratio:16/9;overflow:hidden;">
-        <img src="@Url.Content("~/img/WhatsApp Image 2025-06-18 at 13.23.00.jpeg")" alt="Title Picture" style="display:block;width:100%;height:100%;object-fit:cover;" />
+        
     </div>
     <div class="subtitle-container" style="position:absolute;bottom:2em;left:0;right:0;display:flex;justify-content:center;">
         <div id="tvSubtitleBar" style="width:90%;display:flex;flex-direction:column;align-items:flex-start;gap:0.2em;perspective:100px;max-height:6.5rem;overflow:hidden;">
             <div id="tvSubtitleLine1" style="display:table;text-align:left;padding:0.1em 0.3em;min-height:1.5em;line-height:1.25;font-size:2rem;color:white;transition:opacity 0.3s ease, transform 0.4s ease;"></div>
             <div id="tvSubtitleLine2" style="display:table;text-align:left;padding:0.1em 0.3em;min-height:1.5em;line-height:1.25;font-size:2rem;color:white;transition:opacity 0.3s ease, transform 0.4s ease;"></div>
+            <div id="tvSubtitleLine3" style="display:table;text-align:left;padding:0.1em 0.3em;min-height:1.5em;line-height:1.25;font-size:2rem;color:white;transition:opacity 0.3s ease, transform 0.4s ease;"></div>
+            <div id="tvSubtitleLine4" style="display:table;text-align:left;padding:0.1em 0.3em;min-height:1.5em;line-height:1.25;font-size:2rem;color:white;transition:opacity 0.3s ease, transform 0.4s ease;"></div>
+            <div id="tvSubtitleLine5" style="display:table;text-align:left;padding:0.1em 0.3em;min-height:1.5em;line-height:1.25;font-size:2rem;color:white;transition:opacity 0.3s ease, transform 0.4s ease;"></div>
             <span id="subtitleMeasure" style="visibility:hidden;position:absolute;left:-9999px;font-size:2rem;"></span>
         </div>
     </div>
 </div>
 
-<!-- Notification container -->
-<div id="notificationContainer" style="position:fixed;top:20px;right:20px;z-index:9999;display:none;">
-    <div id="notification" class="alert alert-info" style="min-width:300px;box-shadow:0 4px 12px rgba(0,0,0,0.15);border:none;border-radius:8px;">
-        <div style="display:flex;align-items:center;gap:10px;">
-            <i class="fas fa-info-circle" style="font-size:1.2em;"></i>
-            <div>
-                <strong id="notificationTitle">Recording Time Limit</strong>
-                <div id="notificationMessage">Recording is limited to 60 seconds per session.</div>
-            </div>
+<div class="text-center mt-4" style="display:flex;flex-direction:column;align-items:center;gap:1em;width:100%;">
+    <div style="display:flex;flex-direction:column;align-items:center;width:100%;">
+        <div id="recordingIndicator" class="recording-indicator" style="display:none;">
+            <span class="recording-text">poslušam</span>
+        </div>
+        <div style="display:flex;align-items:center;gap:1em;justify-content:center;width:100%;">
+            <button id="recordButton" class="btn btn-primary btn-lg record-circular-btn">
+                <span class="fas fa-microphone"></span>
+            </button>
+            <button id="transcriptionDropdownBtn" class="btn btn-secondary btn-lg hamburger-circular-btn">
+                <span class="fas fa-history"></span>
+            </button>
         </div>
     </div>
 </div>
 
-<div class="text-center mt-4" style="display:flex;justify-content:center;align-items:center;gap:1em;">
-    <div style="display:flex;align-items:center;gap:1em;">
-        <span id="recordDot" style="display:none;width:1.2em;height:1.2em;border-radius:50%;background:red;vertical-align:middle;box-shadow:0 0 8px 2px rgba(255,0,0,0.5);"></span>
-        <button id="recordButton" class="btn btn-primary btn-lg">
-            <span id="recordIcon" class="fas fa-microphone"></span>
-            <span id="recordText">Start Recording</span>
-        </button>
-        <!-- Hamburger button for dropdown -->
-        <button id="transcriptionDropdownBtn" class="btn btn-secondary btn-lg">
-            <span class="fas fa-bars"></span>
-        </button>
-    </div>
-</div>
-
-<!-- Timer display -->
-<div id="timerContainer" class="text-center mt-2" style="display:none;">
-    <div class="badge bg-warning text-dark" style="font-size:1.1em;padding:0.5em 1em;">
-        <i class="fas fa-clock"></i>
-        <span id="timerDisplay">00:60</span>
-    </div>
-</div>
+<button id="settingsButton" class="settings-circular-btn" style="position: absolute; top: 24px; right: 24px; z-index: 1000;">
+    <span class="fas fa-cog"></span>
+</button>
 
 <audio id="audioPlayback" controls class="mt-3 d-none"></audio>
 <div id="transcriptionDropdown" class="mt-3" style="display:block;max-height:0;overflow:hidden;opacity:0;transition:max-height 0.4s cubic-bezier(0.4,0,0.2,1), opacity 0.3s;">
     <label for="transcriptionText">Live Transcription:</label>
     <textarea id="transcriptionText" class="form-control" rows="6" readonly></textarea>
+</div>
+
+<div id="settingsPanel" class="settings-panel">
+    <!-- Settings content will be loaded here dynamically -->
 </div>
 
 @section Scripts {
@@ -63,107 +364,38 @@
         let mediaRecorder;
         let ws;
         let finalText = '';
-        let recordingTimer = null;
-        let timeRemaining = 60; // 60 seconds
-        const RECORDING_LIMIT = 60; // seconds
+        let finalTranscriptWithSpeakers = '';
+        let lastSpeakerForFinal = null;
+        let lastSpeakerForPartial = null;
         
         const recordButton = document.getElementById('recordButton');
-        const recordIcon = document.getElementById('recordIcon');
-        const recordText = document.getElementById('recordText');
-        const recordDot = document.getElementById('recordDot');
         const audioPlayback = document.getElementById('audioPlayback');
         const transcriptionText = document.getElementById('transcriptionText');
-        const tvSubtitleLine1 = document.getElementById('tvSubtitleLine1');
-        const tvSubtitleLine2 = document.getElementById('tvSubtitleLine2');
-        const subtitleMeasure = document.getElementById('subtitleMeasure');
-        const tvSubtitleBar = document.getElementById('tvSubtitleBar');
-        const transcriptionDropdownBtn = document.getElementById('transcriptionDropdownBtn');
-        const transcriptionDropdown = document.getElementById('transcriptionDropdown');
-        const timerContainer = document.getElementById('timerContainer');
-        const timerDisplay = document.getElementById('timerDisplay');
-        const notificationContainer = document.getElementById('notificationContainer');
-        const notificationTitle = document.getElementById('notificationTitle');
-        const notificationMessage = document.getElementById('notificationMessage');
-
-        // Notification function
-        function showNotification(title, message, type = 'info') {
-            notificationTitle.textContent = title;
-            notificationMessage.textContent = message;
-            
-            const notification = document.getElementById('notification');
-            notification.className = `alert alert-${type}`;
-            
-            notificationContainer.style.display = 'block';
-            
-            // Auto-hide after 5 seconds
-            setTimeout(() => {
-                notificationContainer.style.display = 'none';
-            }, 5000);
-        }
-
-        // Timer function
-        function updateTimer() {
-            const minutes = Math.floor(timeRemaining / 60);
-            const seconds = timeRemaining % 60;
-            timerDisplay.textContent = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
-            
-            // Change color when time is running low
-            if (timeRemaining <= 10) {
-                timerDisplay.style.color = '#dc3545';
-            } else if (timeRemaining <= 20) {
-                timerDisplay.style.color = '#ffc107';
-            } else {
-                timerDisplay.style.color = 'inherit';
-            }
-        }
-
-        function startTimer() {
-            timeRemaining = RECORDING_LIMIT;
-            updateTimer();
-            timerContainer.style.display = 'block';
-            
-            recordingTimer = setInterval(() => {
-                timeRemaining--;
-                updateTimer();
-                
-                if (timeRemaining <= 0) {
-                    stopRecording();
-                    showNotification('Recording Stopped', 'Recording automatically stopped after 60 seconds. Click "Start Recording" to begin a new session.', 'warning');
-                }
-            }, 1000);
-        }
-
-        function stopTimer() {
-            if (recordingTimer) {
-                clearInterval(recordingTimer);
-                recordingTimer = null;
-            }
-            timerContainer.style.display = 'none';
-            timeRemaining = RECORDING_LIMIT;
-        }
-
-        // --- BEGIN NEW SUBTITLE LOGIC (SYNC WITH WHITE BOX) ---
-        let subtitleFullText = '';
-        const MAX_SUBTITLE_LINES = 2;
-        const SUBTITLE_LINGER_MS = 2000; // 2 seconds
-        let previousLines = ['', ''];
+        const tvSubtitleLines = [
+            document.getElementById('tvSubtitleLine1'),
+            document.getElementById('tvSubtitleLine2'),
+            document.getElementById('tvSubtitleLine3'),
+            document.getElementById('tvSubtitleLine4'),
+            document.getElementById('tvSubtitleLine5')
+        ];
+        const MAX_SUBTITLE_LINES = 5;
+        let previousLines = ['', '', '', '', ''];
         let isAnimating = false;
 
-        function updateLineAppearance(line1Text, line2Text) {
-             if (line1Text && line1Text.trim()) {
-                tvSubtitleLine1.style.background = 'rgba(0,0,0,0.9)';
-                tvSubtitleLine1.style.visibility = 'visible';
-            } else {
-                tvSubtitleLine1.style.background = 'transparent';
-                tvSubtitleLine1.style.visibility = 'hidden';
-            }
+        let speakerTranscriptFinal = []; // Array of {speaker, text}
+        let speakerTranscriptPartial = '';
+        let lastFinalTokenIndex = 0;
+        let lastSpeakerForTranscript = null;
 
-            if (line2Text && line2Text.trim()) {
-                tvSubtitleLine2.style.background = 'rgba(0,0,0,0.9)';
-                tvSubtitleLine2.style.visibility = 'visible';
+        function updateLineAppearance(lines) {
+            for (let i = 0; i < MAX_SUBTITLE_LINES; i++) {
+                if (lines[i] && lines[i].trim()) {
+                    tvSubtitleLines[i].style.background = 'rgba(0,0,0,0.9)';
+                    tvSubtitleLines[i].style.visibility = 'visible';
             } else {
-                tvSubtitleLine2.style.background = 'transparent';
-                tvSubtitleLine2.style.visibility = 'hidden';
+                    tvSubtitleLines[i].style.background = 'transparent';
+                    tvSubtitleLines[i].style.visibility = 'hidden';
+                }
             }
         }
 
@@ -173,46 +405,18 @@
             let maxWidth = tvSubtitleBar.clientWidth - 32;
             let allLines = wrapTextToLines(subtitleFullText, maxWidth);
 
-            const newLine1 = allLines.length > 1 ? allLines[allLines.length - 2] : '';
-            const newLine2 = allLines.length > 0 ? allLines[allLines.length - 1] : '';
-
-            // Check for roll-up animation
-            if (newLine1 === previousLines[1] && newLine1 !== '') {
-                isAnimating = true;
-                tvSubtitleLine1.style.opacity = '0';
-                tvSubtitleLine2.style.transform = `translateY(-100%)`;
-
-                setTimeout(() => {
-                    // Update text content
-                    tvSubtitleLine1.textContent = newLine1;
-                    tvSubtitleLine2.textContent = newLine2;
-
-                    // Reset styles without animation for the swap
-                    tvSubtitleLine1.style.transition = 'none';
-                    tvSubtitleLine2.style.transition = 'none';
-                    
-                    tvSubtitleLine1.style.opacity = '1';
-                    tvSubtitleLine2.style.transform = 'translateY(0)';
-                    tvSubtitleLine2.style.opacity = '0'; // Prepare for fade-in
-
-                    // Force reflow
-                    void tvSubtitleBar.offsetHeight;
-
-                    // Re-enable transitions and fade in the new line
-                    tvSubtitleLine1.style.transition = 'opacity 0.3s ease, transform 0.4s ease';
-                    tvSubtitleLine2.style.transition = 'opacity 0.3s ease, transform 0.4s ease';
-                    tvSubtitleLine2.style.opacity = '1';
-
-                    updateLineAppearance(newLine1, newLine2);
-                    isAnimating = false;
-                }, 400); // Animation duration
-            } else {
-                // Handle simple text updates
-                tvSubtitleLine1.textContent = newLine1;
-                tvSubtitleLine2.textContent = newLine2;
-                updateLineAppearance(newLine1, newLine2);
+            // Get the last 5 lines (oldest at top, newest at bottom)
+            let newLines = [];
+            for (let i = 0; i < MAX_SUBTITLE_LINES; i++) {
+                newLines[i] = allLines[allLines.length - MAX_SUBTITLE_LINES + i] || '';
             }
-            previousLines = [newLine1, newLine2];
+
+            // Simple update for now (animation logic can be fixed later)
+            for (let i = 0; i < MAX_SUBTITLE_LINES; i++) {
+                tvSubtitleLines[i].textContent = newLines[i];
+            }
+            updateLineAppearance(newLines);
+            previousLines = newLines;
         }
         
         function wrapTextToLines(text, maxWidthPx) {
@@ -236,10 +440,111 @@
             return lines;
         }
 
-        function appendTranscription(text) {
-            transcriptionText.value = text;
-            subtitleFullText = text;
+        function appendTranscription(text, tokens) {
+            let showSpeaker = (localStorage.getItem('speakerDiarization') === 'true');
+            if (showSpeaker && tokens && tokens.length > 0) {
+                let nonFinalText = '';
+                lastSpeakerForPartial = null;
+                for (const token of tokens) {
+                    if (token.text) {
+                        if (token.is_final) {
+                            if (token.speaker !== lastSpeakerForFinal) {
+                                finalTranscriptWithSpeakers += (finalTranscriptWithSpeakers ? '\n' : '') + `Speaker ${token.speaker}: `;
+                                lastSpeakerForFinal = token.speaker;
+                            }
+                            finalTranscriptWithSpeakers += token.text;
+                        } else {
+                            if (token.speaker !== lastSpeakerForPartial) {
+                                nonFinalText += (nonFinalText ? '\n' : '') + `Speaker ${token.speaker}: `;
+                                lastSpeakerForPartial = token.speaker;
+                            }
+                            nonFinalText += token.text;
+                        }
+                    }
+                }
+                let displayText = finalTranscriptWithSpeakers + (nonFinalText ? ('\n' + nonFinalText) : '');
+                transcriptionText.value = displayText;
+                subtitleFullText = displayText;
+            } else {
+                finalTranscriptWithSpeakers = '';
+                lastSpeakerForFinal = null;
+                lastSpeakerForPartial = null;
+                transcriptionText.value = text;
+                subtitleFullText = text;
+            }
             updateSubtitleBar();
+        }
+
+        function updateSpeakerTranscript(tokens) {
+            let showSpeaker = (localStorage.getItem('speakerDiarization') === 'true');
+            console.log('[DEBUG] updateSpeakerTranscript called, showSpeaker:', showSpeaker, 'tokens:', tokens);
+            
+            if (!showSpeaker) {
+                speakerTranscriptContainer.style.display = 'none';
+                speakerTranscript.innerHTML = '';
+                speakerTranscriptFinal = [];
+                speakerTranscriptPartial = '';
+                lastFinalTokenIndex = 0;
+                lastSpeakerForTranscript = null;
+                return;
+            }
+            speakerTranscriptContainer.style.display = 'block';
+
+            // Accumulate finalized tokens per speaker
+            let i = lastFinalTokenIndex;
+            while (tokens && i < tokens.length) {
+                const token = tokens[i];
+                if (token.is_final && token.text) {
+                    console.log('[DEBUG] Processing final token:', token);
+                    if (
+                        speakerTranscriptFinal.length === 0 ||
+                        speakerTranscriptFinal[speakerTranscriptFinal.length - 1].speaker !== token.speaker
+                    ) {
+                        speakerTranscriptFinal.push({ speaker: token.speaker, text: token.text });
+                        console.log('[DEBUG] Added new speaker entry:', token.speaker, token.text);
+                    } else {
+                        speakerTranscriptFinal[speakerTranscriptFinal.length - 1].text += token.text;
+                        console.log('[DEBUG] Appended to existing speaker:', token.speaker, token.text);
+                    }
+                    lastFinalTokenIndex = i + 1;
+                }
+                i++;
+            }
+
+            // Find the last speaker for partial tokens
+            let lastSpeaker = speakerTranscriptFinal.length > 0 ? speakerTranscriptFinal[speakerTranscriptFinal.length - 1].speaker : null;
+            let partialText = '';
+            if (tokens) {
+                for (let j = lastFinalTokenIndex; j < tokens.length; j++) {
+                    const token = tokens[j];
+                    if (token.text) {
+                        if (token.speaker !== lastSpeaker) {
+                            // Speaker changed in partial
+                            partialText += (partialText ? '<br>' : '') + `<b>Speaker ${token.speaker}:</b> `;
+                            lastSpeaker = token.speaker;
+                        }
+                        partialText += token.text;
+                    }
+                }
+            }
+
+            // Render transcript
+            let html = '';
+            let prevSpeaker = null;
+            for (const entry of speakerTranscriptFinal) {
+                if (entry.speaker !== prevSpeaker) {
+                    html += (html ? '<br>' : '') + `<b>Speaker ${entry.speaker}:</b> `;
+                    prevSpeaker = entry.speaker;
+                }
+                html += entry.text;
+            }
+            if (partialText) {
+                html += (html ? '<br>' : '') + partialText;
+            }
+            
+            console.log('[DEBUG] Final HTML for speaker transcript:', html);
+            speakerTranscript.innerHTML = html;
+            speakerTranscriptContainer.scrollTop = speakerTranscriptContainer.scrollHeight;
         }
 
         // Dropdown toggle for transcription box with animation
@@ -272,16 +577,20 @@
             if (mediaRecorder && isRecording) {
                 mediaRecorder.stop();
                 isRecording = false;
+                // Toggle icon to mic with null check
+                const recordIcon = document.querySelector('#recordButton .fas');
+                if (recordIcon) {
                 recordIcon.className = 'fas fa-microphone';
-                recordText.textContent = 'Start Recording';
-                recordDot.style.display = 'none';
-                recordDot.style.opacity = '1';
+                }
+                recordingIndicator.style.display = 'none';
                 if (blinkInterval) clearInterval(blinkInterval);
                 blinkInterval = null;
-                stopTimer();
                 subtitleFullText = '';
                 updateSubtitleBar();
                 nonFinalBuffer = '';
+                finalTranscriptWithSpeakers = '';
+                lastSpeakerForFinal = null;
+                lastSpeakerForPartial = null;
                 console.log('[DEBUG] Stopped recording');
             }
         }
@@ -298,6 +607,10 @@
                     ws.binaryType = 'arraybuffer';
                     ws.onopen = () => {
                         console.log('[DEBUG] WebSocket connection opened');
+                        // Always send config as first message
+                        ws.send(JSON.stringify({
+                            enable_speaker_diarization: localStorage.getItem('speakerDiarization') === 'true'
+                        }));
                     };
                     ws.onclose = (event) => {
                         console.log('[DEBUG] WebSocket connection closed', event);
@@ -322,7 +635,7 @@
                                         }
                                     }
                                 }
-                                appendTranscription(finalText + nonFinalText);
+                                appendTranscription(finalText + nonFinalText, data.tokens);
                             }
                         } catch (e) {
                             console.warn('[WARN] Failed to parse transcription message', e);
@@ -348,23 +661,16 @@
                     mediaRecorder.start(250); // send audio chunks every 250ms
 
                     isRecording = true;
+                    // Toggle icon to stop with null check
+                    const recordIcon = document.querySelector('#recordButton .fas');
+                    if (recordIcon) {
                     recordIcon.className = 'fas fa-stop';
-                    recordText.textContent = 'Stop Recording';
-                    recordDot.style.display = 'inline-block';
-                    // Start blinking
-                    blinkInterval = setInterval(() => {
-                        recordDot.style.opacity = recordDot.style.opacity === '0' ? '1' : '0';
-                    }, 500);
+                    }
+                    recordingIndicator.style.display = 'flex';
                     audioPlayback.classList.add('d-none');
                     subtitleFullText = '';
                     updateSubtitleBar();
                     nonFinalBuffer = '';
-                    
-                    // Start the timer
-                    startTimer();
-                    
-                    // Show notification about time limit
-                    showNotification('Recording Started', 'Recording is limited to 60 seconds per session.', 'info');
                     
                     console.log('[DEBUG] Started recording');
                 } catch (err) {
@@ -374,20 +680,83 @@
             } else {
                 // Stop recording manually
                 stopRecording();
-                showNotification('Recording Stopped', 'Recording stopped manually.', 'success');
             }
         });
 
-        const clearTranscriptionBtn = document.getElementById('clearTranscriptionBtn');
-        clearTranscriptionBtn.addEventListener('click', () => {
-            finalText = '';
-            transcriptionText.value = '';
-            subtitleFullText = '';
-            // Reset lines
-            tvSubtitleLine1.textContent = '';
-            tvSubtitleLine2.textContent = '';
-            updateLineAppearance('', '');
+        settingsButton.addEventListener('click', function() {
+            if (!settingsPanel.classList.contains('open')) {
+                fetch('/Home/SettingsPanel')
+                    .then(response => response.text())
+                    .then(html => {
+                        settingsPanel.innerHTML = html;
+                        settingsPanel.classList.add('open');
+                        // Set switch state to match current mode
+                        const darkModeSwitch = document.getElementById('darkModeSwitch');
+                        if (darkModeSwitch) {
+                            darkModeSwitch.checked = !document.body.classList.contains('light-mode');
+                        }
+                        // Speaker diarization logic
+                        const speakerSwitch = document.getElementById('speakerDiarizationSwitch');
+                        if (speakerSwitch) {
+                            // Set initial state from localStorage
+                            speakerSwitch.checked = localStorage.getItem('speakerDiarization') === 'true';
+                            // Save to localStorage on change
+                            speakerSwitch.onchange = function() {
+                                localStorage.setItem('speakerDiarization', speakerSwitch.checked ? 'true' : 'false');
+                            };
+                        }
+                        // Add close event
+                        const closeBtn = document.getElementById('closeSettingsPanel');
+                        if (closeBtn) {
+                            closeBtn.onclick = function() {
+                                settingsPanel.classList.remove('open');
+                                setTimeout(() => { settingsPanel.innerHTML = ''; }, 350);
+                            };
+                        }
+                        // Text size logic
+                        function setTranscriptionSize(size) {
+                            document.body.classList.remove('transcription-size-small', 'transcription-size-medium', 'transcription-size-large');
+                            if (size === 'large') {
+                                document.body.classList.add('transcription-size-large');
+                            } else if (size === 'medium') {
+                                document.body.classList.add('transcription-size-medium');
+                            } else {
+                                document.body.classList.add('transcription-size-small');
+                            }
+                            localStorage.setItem('transcriptionTextSize', size);
+                        }
+                        // On page load, set transcription size from localStorage
+                        setTranscriptionSize(localStorage.getItem('transcriptionTextSize') || 'medium');
+                        // Listen for dropdown changes globally
+                        // (in case settings panel is loaded dynamically)
+                        document.body.addEventListener('change', function(e) {
+                            if (e.target && e.target.id === 'transcriptionTextSize') {
+                                setTranscriptionSize(e.target.value);
+                            }
+                        });
+                        // When settings panel is opened, sync dropdown to current value
+                        setTimeout(() => {
+                            const transcriptionTextSize = localStorage.getItem('transcriptionTextSize') || 'medium';
+                            const dropdown = document.getElementById('transcriptionTextSize');
+                            if (dropdown) dropdown.value = transcriptionTextSize;
+                        }, 100);
+                    });
+            }
         });
+
+        // Dark/Light mode logic
+        function setMode(isDark) {
+            if (isDark) {
+                document.body.classList.remove('light-mode');
+                localStorage.setItem('darkMode', 'true');
+            } else {
+                document.body.classList.add('light-mode');
+                localStorage.setItem('darkMode', 'false');
+            }
+        }
+        // On page load, set mode from localStorage
+        setMode(localStorage.getItem('darkMode') !== 'false');
     </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
 }

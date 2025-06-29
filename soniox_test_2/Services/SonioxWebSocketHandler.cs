@@ -2,6 +2,7 @@ using System.Net.WebSockets;
 using System.Text;
 using Microsoft.AspNetCore.Http;
 using System.Text.Json;
+using System.Collections.Generic;
 
 namespace soniox_test_2.Services
 {
@@ -19,18 +20,26 @@ namespace soniox_test_2.Services
                 await sonioxWebSocket.ConnectAsync(new Uri(SonioxWsUrl), context.RequestAborted);
                 Console.WriteLine("[DEBUG] Connected to Soniox WebSocket API");
 
-                // Send initial config to Soniox as the first message
-                var config = new
-                {
-                    api_key = SonioxApiKey,
-                    audio_format = "auto",
-                    model = "stt-rt-preview",
-                    language_hints = new[] { "sl" }
-                };
-                var configJson = JsonSerializer.Serialize(config);
-                var configBytes = Encoding.UTF8.GetBytes(configJson);
-                await sonioxWebSocket.SendAsync(new ArraySegment<byte>(configBytes), WebSocketMessageType.Text, true, context.RequestAborted);
-                Console.WriteLine("[DEBUG] Sent config to Soniox");
+                // 1. Receive the first message from the client (should be JSON config)
+                var buffer = new byte[8192];
+                var result = await clientWebSocket.ReceiveAsync(new ArraySegment<byte>(buffer), context.RequestAborted);
+                if (result.MessageType != WebSocketMessageType.Text)
+                    throw new Exception("Expected JSON config as first message");
+
+                var clientConfigJson = Encoding.UTF8.GetString(buffer, 0, result.Count);
+                var clientConfig = JsonSerializer.Deserialize<Dictionary<string, object>>(clientConfigJson);
+
+                // 2. Merge with your required fields
+                clientConfig["api_key"] = SonioxApiKey;
+                clientConfig["audio_format"] = "auto";
+                clientConfig["model"] = "stt-rt-preview";
+                clientConfig["language_hints"] = new[] { "sl" };
+
+                // 3. Send merged config to Soniox
+                var mergedConfigJson = JsonSerializer.Serialize(clientConfig);
+                var mergedConfigBytes = Encoding.UTF8.GetBytes(mergedConfigJson);
+                await sonioxWebSocket.SendAsync(new ArraySegment<byte>(mergedConfigBytes), WebSocketMessageType.Text, true, context.RequestAborted);
+                Console.WriteLine("[DEBUG] Sent merged config to Soniox");
 
                 var receiveBuffer = new byte[8192];
 
@@ -38,17 +47,17 @@ namespace soniox_test_2.Services
                 {
                     while (clientWebSocket.State == WebSocketState.Open)
                     {
-                        var result = await clientWebSocket.ReceiveAsync(new ArraySegment<byte>(receiveBuffer), context.RequestAborted);
-                        if (result.MessageType == WebSocketMessageType.Close)
+                        var audioResult = await clientWebSocket.ReceiveAsync(new ArraySegment<byte>(receiveBuffer), context.RequestAborted);
+                        if (audioResult.MessageType == WebSocketMessageType.Close)
                         {
                             Console.WriteLine("[DEBUG] Client closed WebSocket");
                             await sonioxWebSocket.CloseAsync(WebSocketCloseStatus.NormalClosure, "Client closed", context.RequestAborted);
                             break;
                         }
-                        else if (result.MessageType == WebSocketMessageType.Binary)
+                        else if (audioResult.MessageType == WebSocketMessageType.Binary)
                         {
-                            Console.WriteLine($"[DEBUG] Received audio chunk from client: {result.Count} bytes");
-                            await sonioxWebSocket.SendAsync(new ArraySegment<byte>(receiveBuffer, 0, result.Count), WebSocketMessageType.Binary, result.EndOfMessage, context.RequestAborted);
+                            Console.WriteLine($"[DEBUG] Received audio chunk from client: {audioResult.Count} bytes");
+                            await sonioxWebSocket.SendAsync(new ArraySegment<byte>(receiveBuffer, 0, audioResult.Count), WebSocketMessageType.Binary, audioResult.EndOfMessage, context.RequestAborted);
                         }
                     }
                 });

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cllbMVa2oRdMlyk2/Jk1GB/lTSy31wytJije2dyR4dM=",
+  "Hash": "5Ed1JBKvxWea9MJ6qWtf1AD3PCaiwev3uo8qTqIhW7Q=",
   "Source": "soniox_test_2",
   "BasePath": "_content/soniox_test_2",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "soniox_test_2/wwwroot",
       "Source": "soniox_test_2",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/obj/Debug/net7.0/scopedcss/bundle/soniox_test_2.styles.css",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/obj/Debug/net7.0/scopedcss/bundle/soniox_test_2.styles.css",
       "SourceId": "soniox_test_2",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/obj/Debug/net7.0/scopedcss/bundle/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/obj/Debug/net7.0/scopedcss/bundle/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "soniox_test_2#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -35,13 +35,13 @@
       "Integrity": "GIzh/1uM7arQFqcF3omqX9CcvrYMLYWxGMCpJQlOkB4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/obj/Debug/net7.0/scopedcss/bundle/soniox_test_2.styles.css"
+      "OriginalItemSpec": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/obj/Debug/net7.0/scopedcss/bundle/soniox_test_2.styles.css"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/obj/Debug/net7.0/scopedcss/projectbundle/soniox_test_2.bundle.scp.css",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/obj/Debug/net7.0/scopedcss/projectbundle/soniox_test_2.bundle.scp.css",
       "SourceId": "soniox_test_2",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/obj/Debug/net7.0/scopedcss/projectbundle/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/obj/Debug/net7.0/scopedcss/projectbundle/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "soniox_test_2#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -56,13 +56,13 @@
       "Integrity": "GIzh/1uM7arQFqcF3omqX9CcvrYMLYWxGMCpJQlOkB4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/obj/Debug/net7.0/scopedcss/projectbundle/soniox_test_2.bundle.scp.css"
+      "OriginalItemSpec": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/obj/Debug/net7.0/scopedcss/projectbundle/soniox_test_2.bundle.scp.css"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/css/site.css",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/css/site.css",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -73,17 +73,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "lugek5hnai",
-      "Integrity": "zeR5PHeeHbxfGkL8WV86OzdoF6UnjuCmnagaocD+cbo=",
+      "Fingerprint": "m2yhpys1pu",
+      "Integrity": "QrgjVu4vhM7FhX2HZcrZgjChb2H4BqtDPANd9xi/Smw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/site.css"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/favicon.ico",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/favicon.ico",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/img/WhatsApp Image 2025-06-18 at 13.23.00.jpeg",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/img/WhatsApp Image 2025-06-18 at 13.23.00.jpeg",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "img/WhatsApp Image 2025-06-18 at 13.23.00#[.{fingerprint}]?.jpeg",
       "AssetKind": "All",
@@ -122,10 +122,31 @@
       "OriginalItemSpec": "wwwroot/img/WhatsApp Image 2025-06-18 at 13.23.00.jpeg"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/js/site.js",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/img/WhatsApp Image 2025-06-27 at 14.18.51.jpeg",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
+      "BasePath": "_content/soniox_test_2",
+      "RelativePath": "img/WhatsApp Image 2025-06-27 at 14.18.51#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "22rez0dfvh",
+      "Integrity": "ehMo7+9fnFdzU3+9seu69EA/WYhVvKg9ajACRmTj0BE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/WhatsApp Image 2025-06-27 at 14.18.51.jpeg"
+    },
+    {
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/js/site.js",
+      "SourceId": "soniox_test_2",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "js/site#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -143,10 +164,10 @@
       "OriginalItemSpec": "wwwroot/js/site.js"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -164,10 +185,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -185,10 +206,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -206,10 +227,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -227,10 +248,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -248,10 +269,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -269,10 +290,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -290,10 +311,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -311,10 +332,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -332,10 +353,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -353,10 +374,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -374,10 +395,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -395,10 +416,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -416,10 +437,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -437,10 +458,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -458,10 +479,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -479,10 +500,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -500,10 +521,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -521,10 +542,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -542,10 +563,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -563,10 +584,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -584,10 +605,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -605,10 +626,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -626,10 +647,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -647,10 +668,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -668,10 +689,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -689,10 +710,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -710,10 +731,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -731,10 +752,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -752,10 +773,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -773,10 +794,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -794,10 +815,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -815,10 +836,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -836,10 +857,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -857,10 +878,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -878,10 +899,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -899,10 +920,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -920,10 +941,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -941,10 +962,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -962,10 +983,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -983,10 +1004,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1004,10 +1025,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1025,10 +1046,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1046,10 +1067,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1067,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/LICENSE",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/LICENSE",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/bootstrap/LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -1088,10 +1109,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/LICENSE"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1109,10 +1130,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1130,10 +1151,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -1151,10 +1172,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/jquery-validation/dist/additional-methods.js",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/jquery-validation/dist/additional-methods#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1172,10 +1193,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1193,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1214,10 +1235,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1235,10 +1256,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/jquery-validation/LICENSE.md",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/jquery-validation/LICENSE.md",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/jquery-validation/LICENSE#[.{fingerprint}]?.md",
       "AssetKind": "All",
@@ -1256,10 +1277,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/LICENSE.md"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/jquery/dist/jquery.js",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/jquery/dist/jquery.js",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/jquery/dist/jquery#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1277,10 +1298,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.js"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/jquery/dist/jquery.min.js",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/jquery/dist/jquery.min.js",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1298,10 +1319,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.js"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/jquery/dist/jquery.min.map",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/jquery/dist/jquery.min.map",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1319,10 +1340,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.map"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/jquery/dist/jquery.slim.js",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/jquery/dist/jquery.slim.js",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/jquery/dist/jquery.slim#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1340,10 +1361,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.slim.js"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/jquery/dist/jquery.slim.min.js",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/jquery/dist/jquery.slim.min.js",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/jquery/dist/jquery.slim.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1361,10 +1382,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.slim.min.js"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/jquery/dist/jquery.slim.min.map",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/jquery/dist/jquery.slim.min.map",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/jquery/dist/jquery.slim.min#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1382,10 +1403,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.slim.min.map"
     },
     {
-      "Identity": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/jquery/LICENSE.txt",
+      "Identity": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/jquery/LICENSE.txt",
       "SourceId": "soniox_test_2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/",
+      "ContentRoot": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/",
       "BasePath": "_content/soniox_test_2",
       "RelativePath": "lib/jquery/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -1406,7 +1427,7 @@
   "Endpoints": [
     {
       "Route": "css/site.css",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/css/site.css",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/css/site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1415,7 +1436,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "637"
+          "Value": "1339"
         },
         {
           "Name": "Content-Type",
@@ -1423,11 +1444,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"zeR5PHeeHbxfGkL8WV86OzdoF6UnjuCmnagaocD+cbo=\""
+          "Value": "\"QrgjVu4vhM7FhX2HZcrZgjChb2H4BqtDPANd9xi/Smw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Jun 2025 08:15:01 GMT"
+          "Value": "Sat, 28 Jun 2025 09:37:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1437,13 +1458,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-zeR5PHeeHbxfGkL8WV86OzdoF6UnjuCmnagaocD+cbo="
+          "Value": "sha256-QrgjVu4vhM7FhX2HZcrZgjChb2H4BqtDPANd9xi/Smw="
         }
       ]
     },
     {
-      "Route": "css/site.lugek5hnai.css",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/css/site.css",
+      "Route": "css/site.m2yhpys1pu.css",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/css/site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1452,7 +1473,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "637"
+          "Value": "1339"
         },
         {
           "Name": "Content-Type",
@@ -1460,11 +1481,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"zeR5PHeeHbxfGkL8WV86OzdoF6UnjuCmnagaocD+cbo=\""
+          "Value": "\"QrgjVu4vhM7FhX2HZcrZgjChb2H4BqtDPANd9xi/Smw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Jun 2025 08:15:01 GMT"
+          "Value": "Sat, 28 Jun 2025 09:37:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1474,7 +1495,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "lugek5hnai"
+          "Value": "m2yhpys1pu"
         },
         {
           "Name": "label",
@@ -1482,13 +1503,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-zeR5PHeeHbxfGkL8WV86OzdoF6UnjuCmnagaocD+cbo="
+          "Value": "sha256-QrgjVu4vhM7FhX2HZcrZgjChb2H4BqtDPANd9xi/Smw="
         }
       ]
     },
     {
       "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/favicon.ico",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1533,7 +1554,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/favicon.ico",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1570,7 +1591,7 @@
     },
     {
       "Route": "img/WhatsApp Image 2025-06-18 at 13.23.00.jpeg",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/img/WhatsApp Image 2025-06-18 at 13.23.00.jpeg",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/img/WhatsApp Image 2025-06-18 at 13.23.00.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1607,7 +1628,7 @@
     },
     {
       "Route": "img/WhatsApp Image 2025-06-18 at 13.23.00.styqkx7ma5.jpeg",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/img/WhatsApp Image 2025-06-18 at 13.23.00.jpeg",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/img/WhatsApp Image 2025-06-18 at 13.23.00.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1651,8 +1672,90 @@
       ]
     },
     {
+      "Route": "img/WhatsApp Image 2025-06-27 at 14.18.51.22rez0dfvh.jpeg",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/img/WhatsApp Image 2025-06-27 at 14.18.51.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "351379"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ehMo7+9fnFdzU3+9seu69EA/WYhVvKg9ajACRmTj0BE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 12:20:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "22rez0dfvh"
+        },
+        {
+          "Name": "label",
+          "Value": "img/WhatsApp Image 2025-06-27 at 14.18.51.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ehMo7+9fnFdzU3+9seu69EA/WYhVvKg9ajACRmTj0BE="
+        }
+      ]
+    },
+    {
+      "Route": "img/WhatsApp Image 2025-06-27 at 14.18.51.jpeg",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/img/WhatsApp Image 2025-06-27 at 14.18.51.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "351379"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ehMo7+9fnFdzU3+9seu69EA/WYhVvKg9ajACRmTj0BE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Jun 2025 12:20:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ehMo7+9fnFdzU3+9seu69EA/WYhVvKg9ajACRmTj0BE="
+        }
+      ]
+    },
+    {
       "Route": "js/site.fr7q2aak1r.js",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/js/site.js",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/js/site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1697,7 +1800,7 @@
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/js/site.js",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/js/site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1734,7 +1837,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.bqjiyaj88i.css",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1779,7 +1882,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1816,7 +1919,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.c2jlpeoesf.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1861,7 +1964,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1898,7 +2001,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1935,7 +2038,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.aexeepp0ev.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1980,7 +2083,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2017,7 +2120,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.erw9l3u2r3.css",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2062,7 +2165,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2099,7 +2202,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.ausgxo2sd3.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2144,7 +2247,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2181,7 +2284,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.d7shbmvgxk.css",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2226,7 +2329,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2263,7 +2366,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.cosvhxvwiu.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2308,7 +2411,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2345,7 +2448,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.k8d9w2qqmf.css",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2390,7 +2493,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2427,7 +2530,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.fvhpjtyr6v.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2472,7 +2575,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2509,7 +2612,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.b7pk76d08c.css",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2554,7 +2657,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2591,7 +2694,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.fsbi9cje9m.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2636,7 +2739,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2673,7 +2776,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2710,7 +2813,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.ee0r1s7dh0.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2755,7 +2858,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2792,7 +2895,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2829,7 +2932,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.jd9uben2k1.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2874,7 +2977,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2911,7 +3014,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.dxx9fxp4il.css",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2956,7 +3059,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.rzd6atqjts.css",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3001,7 +3104,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.ub07r2b239.css",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3046,7 +3149,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3083,7 +3186,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3120,7 +3223,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.r4e9w2rdcm.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3165,7 +3268,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.khv3u5hwcm.css",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3210,7 +3313,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3247,7 +3350,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.c2oey78nd0.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3292,7 +3395,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3329,7 +3432,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.lcd1t2u6c8.css",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3374,7 +3477,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3411,7 +3514,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.j5mq2jizvt.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3456,7 +3559,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3493,7 +3596,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.06098lyss8.css",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3538,7 +3641,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3575,7 +3678,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3612,7 +3715,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.nvvlpmu67g.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3657,7 +3760,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.tdbxkamptv.css",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3702,7 +3805,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3739,7 +3842,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3776,7 +3879,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.pj5nd1wqec.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3821,7 +3924,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3866,7 +3969,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3903,7 +4006,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3940,7 +4043,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.v0zj4ognzu.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3985,7 +4088,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.37tfw0ft22.css",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4030,7 +4133,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4067,7 +4170,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.hrwsygsryq.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4112,7 +4215,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4149,7 +4252,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4186,7 +4289,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.ft3s53vfgj.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4231,7 +4334,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4268,7 +4371,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.pk9g2wxc8p.css",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4313,7 +4416,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.s35ty4nyc5.css",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4358,7 +4461,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.6cfz1n2cew.js",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4403,7 +4506,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4440,7 +4543,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.6pdc2jztkx.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4485,7 +4588,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4522,7 +4625,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.493y06b0oq.js",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4567,7 +4670,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4604,7 +4707,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.iovd86k7lj.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4649,7 +4752,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4686,7 +4789,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4723,7 +4826,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.kbrnm935zg.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4768,7 +4871,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4805,7 +4908,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.jj8uyg4cgr.js",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4850,7 +4953,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4887,7 +4990,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4924,7 +5027,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.y7v9cxd14o.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4969,7 +5072,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.vr1egmr9el.js",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5014,7 +5117,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5051,7 +5154,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.h1s4sie4z3.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5096,7 +5199,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5133,7 +5236,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.63fj8s7r0e.js",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5178,7 +5281,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5215,7 +5318,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.0j3bgjxly4.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5260,7 +5363,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5297,7 +5400,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.notf2xhcfb.js",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5342,7 +5445,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/LICENSE",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5379,7 +5482,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE.z6qzljqjd0",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/bootstrap/LICENSE",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/bootstrap/LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5424,7 +5527,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.47otxtyo56.js",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5469,7 +5572,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5506,7 +5609,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.4v8eqarkd7.js",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5551,7 +5654,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5588,7 +5691,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.l3n5xuwxn8.txt",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5633,7 +5736,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5670,7 +5773,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.ilo7uva0vt.js",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/jquery-validation/dist/additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5715,7 +5818,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.js",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/jquery-validation/dist/additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5752,7 +5855,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.js",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5789,7 +5892,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.qlccset4i1.js",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5834,7 +5937,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.js",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5871,7 +5974,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.lzl9nlhx6b.js",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5916,7 +6019,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.ag7o75518u.js",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5961,7 +6064,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.js",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5998,7 +6101,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.md",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/jquery-validation/LICENSE.md",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/jquery-validation/LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6035,7 +6138,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.xzw0cte36n.md",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/jquery-validation/LICENSE.md",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/jquery-validation/LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6080,7 +6183,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.0i3buxo5is.js",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/jquery/dist/jquery.js",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/jquery/dist/jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6125,7 +6228,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.js",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/jquery/dist/jquery.js",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/jquery/dist/jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6162,7 +6265,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.js",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/jquery/dist/jquery.min.js",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/jquery/dist/jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6199,7 +6302,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/jquery/dist/jquery.min.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/jquery/dist/jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6236,7 +6339,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.o1o13a6vjx.js",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/jquery/dist/jquery.min.js",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/jquery/dist/jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6281,7 +6384,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.ttgo8qnofa.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/jquery/dist/jquery.min.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/jquery/dist/jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6326,7 +6429,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.slim.2z0ns9nrw6.js",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/jquery/dist/jquery.slim.js",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/jquery/dist/jquery.slim.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6371,7 +6474,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.slim.js",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/jquery/dist/jquery.slim.js",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/jquery/dist/jquery.slim.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6408,7 +6511,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.slim.min.87fc7y1x7t.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/jquery/dist/jquery.slim.min.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/jquery/dist/jquery.slim.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6453,7 +6556,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.slim.min.js",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/jquery/dist/jquery.slim.min.js",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/jquery/dist/jquery.slim.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6490,7 +6593,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.slim.min.map",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/jquery/dist/jquery.slim.min.map",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/jquery/dist/jquery.slim.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6527,7 +6630,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.slim.min.muycvpuwrr.js",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/jquery/dist/jquery.slim.min.js",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/jquery/dist/jquery.slim.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6572,7 +6675,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.jfsiqqwiad.txt",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/jquery/LICENSE.txt",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/jquery/LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6617,7 +6720,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.txt",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/wwwroot/lib/jquery/LICENSE.txt",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/wwwroot/lib/jquery/LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6654,7 +6757,7 @@
     },
     {
       "Route": "soniox_test_2.80mykb7nny.bundle.scp.css",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/obj/Debug/net7.0/scopedcss/projectbundle/soniox_test_2.bundle.scp.css",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/obj/Debug/net7.0/scopedcss/projectbundle/soniox_test_2.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6699,7 +6802,7 @@
     },
     {
       "Route": "soniox_test_2.80mykb7nny.styles.css",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/obj/Debug/net7.0/scopedcss/bundle/soniox_test_2.styles.css",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/obj/Debug/net7.0/scopedcss/bundle/soniox_test_2.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6744,7 +6847,7 @@
     },
     {
       "Route": "soniox_test_2.bundle.scp.css",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/obj/Debug/net7.0/scopedcss/projectbundle/soniox_test_2.bundle.scp.css",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/obj/Debug/net7.0/scopedcss/projectbundle/soniox_test_2.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6781,7 +6884,7 @@
     },
     {
       "Route": "soniox_test_2.styles.css",
-      "AssetFile": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/obj/Debug/net7.0/scopedcss/bundle/soniox_test_2.styles.css",
+      "AssetFile": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/obj/Debug/net7.0/scopedcss/bundle/soniox_test_2.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {

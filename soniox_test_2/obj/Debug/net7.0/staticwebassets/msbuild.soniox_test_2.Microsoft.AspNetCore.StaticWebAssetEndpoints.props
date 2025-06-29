@@ -3,14 +3,14 @@
     <StaticWebAssetEndpoint Include="_content/soniox_test_2/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-zeR5PHeeHbxfGkL8WV86OzdoF6UnjuCmnagaocD\u002Bcbo="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"637"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022zeR5PHeeHbxfGkL8WV86OzdoF6UnjuCmnagaocD\u002Bcbo=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Jun 2025 08:15:01 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-QrgjVu4vhM7FhX2HZcrZgjChb2H4BqtDPANd9xi/Smw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1339"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022QrgjVu4vhM7FhX2HZcrZgjChb2H4BqtDPANd9xi/Smw=\u0022"},{"Name":"Last-Modified","Value":"Sat, 28 Jun 2025 09:37:50 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/soniox_test_2/css/site.lugek5hnai.css">
+    <StaticWebAssetEndpoint Include="_content/soniox_test_2/css/site.m2yhpys1pu.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"lugek5hnai"},{"Name":"integrity","Value":"sha256-zeR5PHeeHbxfGkL8WV86OzdoF6UnjuCmnagaocD\u002Bcbo="},{"Name":"label","Value":"_content/soniox_test_2/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"637"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022zeR5PHeeHbxfGkL8WV86OzdoF6UnjuCmnagaocD\u002Bcbo=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Jun 2025 08:15:01 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"m2yhpys1pu"},{"Name":"integrity","Value":"sha256-QrgjVu4vhM7FhX2HZcrZgjChb2H4BqtDPANd9xi/Smw="},{"Name":"label","Value":"_content/soniox_test_2/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1339"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022QrgjVu4vhM7FhX2HZcrZgjChb2H4BqtDPANd9xi/Smw=\u0022"},{"Name":"Last-Modified","Value":"Sat, 28 Jun 2025 09:37:50 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/soniox_test_2/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
@@ -35,6 +35,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"styqkx7ma5"},{"Name":"integrity","Value":"sha256-MCVsEeUloyDEs/bhUGmmzJ9d3JJYjS4nA6pJVexwdD0="},{"Name":"label","Value":"_content/soniox_test_2/img/WhatsApp Image 2025-06-18 at 13.23.00.jpeg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"104895"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022MCVsEeUloyDEs/bhUGmmzJ9d3JJYjS4nA6pJVexwdD0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Jun 2025 12:02:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/soniox_test_2/img/WhatsApp Image 2025-06-27 at 14.18.51.22rez0dfvh.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\WhatsApp Image 2025-06-27 at 14.18.51.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"22rez0dfvh"},{"Name":"integrity","Value":"sha256-ehMo7\u002B9fnFdzU3\u002B9seu69EA/WYhVvKg9ajACRmTj0BE="},{"Name":"label","Value":"_content/soniox_test_2/img/WhatsApp Image 2025-06-27 at 14.18.51.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"351379"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022ehMo7\u002B9fnFdzU3\u002B9seu69EA/WYhVvKg9ajACRmTj0BE=\u0022"},{"Name":"Last-Modified","Value":"Fri, 27 Jun 2025 12:20:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/soniox_test_2/img/WhatsApp Image 2025-06-27 at 14.18.51.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\WhatsApp Image 2025-06-27 at 14.18.51.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ehMo7\u002B9fnFdzU3\u002B9seu69EA/WYhVvKg9ajACRmTj0BE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"351379"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022ehMo7\u002B9fnFdzU3\u002B9seu69EA/WYhVvKg9ajACRmTj0BE=\u0022"},{"Name":"Last-Modified","Value":"Fri, 27 Jun 2025 12:20:46 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/soniox_test_2/js/site.fr7q2aak1r.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>

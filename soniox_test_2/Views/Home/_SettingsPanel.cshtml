@@ -1,0 +1,27 @@
+@* Settings Panel Partial *@
+<div class="settings-panel-content">
+    <button id="closeSettingsPanel" class="close-settings-btn">&times;</button>
+    <h2>Settings</h2>
+    <div class="form-group mt-4" style="display:flex;align-items:center;gap:1em;">
+        <span>Dark mode</span>
+        <label class="switch" style="margin-bottom:0;">
+            <input type="checkbox" id="darkModeSwitch" checked>
+            <span class="slider round"></span>
+        </label>
+    </div>
+    <div class="form-group mt-4" style="display:flex;align-items:center;gap:1em;">
+        <span>Speaker Detection</span>
+        <label class="switch" style="margin-bottom:0;">
+            <input type="checkbox" id="speakerDiarizationSwitch">
+            <span class="slider round"></span>
+        </label>
+    </div>
+    <div class="form-group mt-4" style="display:flex;align-items:center;gap:1em;">
+        <span>Transcription text size</span>
+        <select id="transcriptionTextSize" style="padding:0.3em 1em;border-radius:6px;border:1px solid #ccc;">
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+        </select>
+    </div>
+</div> 

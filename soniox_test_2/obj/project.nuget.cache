@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8GYsgfJjK4I=",
+  "dgSpecHash": "6DsQ7msWuLI=",
   "success": true,
-  "projectFilePath": "/Users/matic/RiderProjects/soniox_test_2/soniox_test_2/soniox_test_2.csproj",
+  "projectFilePath": "/Users/matic/RiderProjects/soniox_gluhonemi_test/soniox_test_2/soniox_test_2.csproj",
   "expectedPackageFiles": [
     "/Users/matic/.nuget/packages/microsoft.netcore.platforms/3.1.0/microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "/Users/matic/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
